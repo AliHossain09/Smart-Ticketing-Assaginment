@@ -1,0 +1,51 @@
+.header-image-container{
+    background-image:linear-gradient(to right, rgba(44,56,85,.9),rgba(100,125,187,.1)), url("./images/banner.png");
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+}
+.small{
+    position: absolute;
+    bottom: -60px;
+}
+.seat-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    padding-top: 2rem;
+    
+
+}
+.seat{
+    background-color:hwb(180 87% 12% / 0.459);
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.seat-serial{
+    background-color:#1cd10013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50%;
+
+
+}
+.inputt{
+    position: relative;
+}
+.btnn{
+    position: absolute;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
